@@ -1,0 +1,26 @@
+.slidev-page-1 {
+    position: relative;
+    color: #000 !important;
+    background-image: url(https://pic.kblue.site/%2FiTab-SWLtowfe1kU.jpg) !important;
+}
+.slidev-page-1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255,255,255,0.05);
+    backdrop-filter: blur(4px) !important;
+}
+.slidev-page-1  .w-full {
+    position: relative;
+    z-index: 22;
+    padding-left: 14em !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
